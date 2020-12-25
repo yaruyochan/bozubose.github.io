@@ -1,0 +1,52 @@
+
+.logo {
+  width: 100px;
+  margin-top: 20px;
+}
+
+
+.header-list {
+  text-align: center;
+}
+
+.header-list ul {
+  margin: 0 ;
+  padding: 0 ;
+}
+
+.header-list li {
+  list-style: none;
+  float: left;
+  width: 17%;
+  min-width: 90px;
+}
+
+.header-list li:not(:last-child) {
+  border-right:2px solid #ddd;
+}
+
+.header-list a {
+  text-decoration: none;
+  color: #333;
+}
+
+.header-list a.current {
+  color: #00b0f0;
+  border-bottom: 2px solid #F7CB4D;
+}
+
+.header-list a:hover {
+  color: #F7CB4D;
+  border-bottom: 2px solid #F7CB4D;
+}
+
+.headbuttom {
+  position: relative;
+  float: right;
+  text-decoration: none;
+  padding: 3px 5px;
+  color: #ffffff !important;
+  background: black;
+  border: solid 4px auto;
+  font-weight: bold;
+}
